@@ -7,12 +7,9 @@ public:
         {
             if(s[i] == t[j])
             {
-                i++;
                 j++;
             }
-            else{
-                i++;
-            }
+            i++;
         }
         return (int)t.size() - j;
     }
